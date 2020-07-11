@@ -1,0 +1,12 @@
+ErrorDocument 404 /404.html
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule home$ index.php
+RewriteRule contact$ contact.php
+RewriteRule about$ about.php
+RewriteRule project$ project.php
+RewriteRule service$ service.php
+RewriteRule blog$ blog.php
+
+
